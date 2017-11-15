@@ -15,6 +15,11 @@ body {
   }
 }
 
+@font-face {
+  font-family: 'RohnRounded';
+  src: local('RohnRounded'), url("../resources/RohnRounded-Black.woff") format("woff"), url("../resources/RohnRounded-Black.ttf")  format("truetype");
+}
+
 header.masthead {
   background: url('../resources/rendering.png') no-repeat center center scroll;
   -webkit-background-size: contain;
@@ -37,3 +42,96 @@ header.masthead>.overlay {
     padding: 10rem 0;
   }
 }
+
+#splashbar {
+  width: 100%;
+}
+
+#splashbar-img {
+  width: 100%;
+}
+
+#header-container-dpa {
+  width: 90%;
+  max-width:none;
+  padding-top: 20px;
+}
+
+#header-dpa {
+  text-align: center;
+  font-family: 'RohnRounded';
+  color: #6fff0f;
+  font-size: 30px;
+}
+
+@media (min-width: 576px) {
+  #header-container-dpa {
+    width: 90%;
+    max-width:none;
+  }
+
+  #header-dpa {
+    text-align: center;
+    font-family: 'RohnRounded';
+    color: #6fff0f;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  #header-container-dpa {
+    width: 90%;
+    max-width:none;
+  }
+
+  #header-dpa {
+    text-align: center;
+    font-family: 'RohnRounded';
+    color: #6fff0f;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  #header-container-dpa {
+    width: 90%;
+    max-width:none;
+  }
+
+  #header-dpa {
+    text-align: center;
+    font-family: 'RohnRounded';
+    color: #6fff0f;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #header-container-dpa {
+    width: 90%;
+    max-width:none;
+  }
+
+  #header-dpa {
+    text-align: center;
+    font-family: 'RohnRounded';
+    color: #6fff0f;
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 1350px) {
+  #header-container-dpa {
+    width: 90%;
+    max-width:none;
+  }
+
+  #header-dpa {
+    text-align: center;
+    font-family: 'RohnRounded';
+    color: #6fff0f;
+    font-size: 55px;
+  }
+}
+
+
