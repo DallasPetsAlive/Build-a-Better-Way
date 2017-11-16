@@ -118,6 +118,13 @@ div.about-txt {
   padding-top: 20px;
 }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
+}
+
 #donation-level-container {
   background-color: #ffffff;
   color: #1d3343;
