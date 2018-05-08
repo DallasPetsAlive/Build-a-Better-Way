@@ -97,6 +97,12 @@ div.about-txt {
   position:absolute;
 }
 
+#dpa-slider {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
 #dpa-navbar {
   width: 90%;
   max-width: none;
@@ -106,10 +112,17 @@ div.about-txt {
   width: 100%;
 }
 
-#header-container-dpa {
+.header-container-dpa {
   width: 90%;
   max-width:none;
   padding-top: 20px;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
 }
 
 #donation-level-container {
@@ -118,7 +131,7 @@ div.about-txt {
   margin-top: 50px;
 }
 
-#header-dpa {
+.header-dpa {
   text-align: center;
   font-family: 'RohnRounded';
   color: #6fff0f;
@@ -126,12 +139,12 @@ div.about-txt {
 }
 
 @media (min-width: 576px) {
-  #header-container-dpa {
+  .header-container-dpa {
     width: 90%;
     max-width:none;
   }
 
-  #header-dpa {
+  .header-dpa {
     text-align: center;
     font-family: 'RohnRounded';
     color: #6fff0f;
@@ -150,12 +163,12 @@ div.about-txt {
 }
 
 @media (min-width: 768px) {
-  #header-container-dpa {
+  .header-container-dpa {
     width: 90%;
     max-width:none;
   }
 
-  #header-dpa {
+  .header-dpa {
     text-align: center;
     font-family: 'RohnRounded';
     color: #6fff0f;
@@ -174,12 +187,12 @@ div.about-txt {
 }
 
 @media (min-width: 992px) {
-  #header-container-dpa {
+  .header-container-dpa {
     width: 90%;
     max-width:none;
   }
 
-  #header-dpa {
+  .header-dpa {
     text-align: center;
     font-family: 'RohnRounded';
     color: #6fff0f;
@@ -198,12 +211,12 @@ div.about-txt {
 }
 
 @media (min-width: 1200px) {
-  #header-container-dpa {
+  .header-container-dpa {
     width: 90%;
     max-width:none;
   }
 
-  #header-dpa {
+  .header-dpa {
     text-align: center;
     font-family: 'RohnRounded';
     color: #6fff0f;
@@ -222,16 +235,16 @@ div.about-txt {
 }
 
 @media (min-width: 1350px) {
-  #header-container-dpa {
+  .header-container-dpa {
     width: 90%;
     max-width:none;
   }
 
-  #header-dpa {
+  .header-dpa {
     text-align: center;
     font-family: 'RohnRounded';
     color: #6fff0f;
-    font-size: 55px;
+    font-size: 52px;
   }
 
   #dpa-navbar {
